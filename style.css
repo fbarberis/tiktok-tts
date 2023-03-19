@@ -1,0 +1,109 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Estilos para el cuadro de texto */
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  resize: none;
+}
+
+/* Estilos para el selector de voz */
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  appearance: none;
+  background-image: linear-gradient(to bottom, #fff, #f5f5f5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+select option {
+  padding: 10px;
+}
+
+/* Estilos para los botones */
+button {
+  display: block;
+  margin: 50px auto 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+a#descargar {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+a#descargar:hover {
+  background-color: #2ecc71;
+}
