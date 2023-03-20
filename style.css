@@ -111,3 +111,23 @@ a#descargar {
 a#descargar:hover {
   background-color: #2ecc71;
 }
+
+/* Estilos específicos para escritorio */
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Estilos específicos para móviles */
+@media (max-width: 767px) {
+  textarea {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  select {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
