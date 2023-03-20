@@ -28,7 +28,7 @@ h1 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Estilos para el cuadro de texto */
@@ -67,6 +67,10 @@ select {
 
 select option {
   padding: 10px;
+}
+button[name='submit'] {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Estilos para los botones */
