@@ -84,4 +84,10 @@ text_parts.push(docx_content);
       console.error(error);
       console.error("Error al generar el audio");
     });
+  gapi.load('auth2', function() {
+  gapi.auth2.init({
+    client_id: 'TU_CLAVE_DE_CLIENTE',
+  });
+});
+
 }
