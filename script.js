@@ -86,7 +86,7 @@ text_parts.push(docx_content);
     });
   gapi.load('auth2', function() {
   gapi.auth2.init({
-    client_id: 'TU_CLAVE_DE_CLIENTE',
+    client_id: '581031628609-rj6gs805cnij8n016d3ta20bnc28ev7f.apps.googleusercontent.com',
   });
 });
 
