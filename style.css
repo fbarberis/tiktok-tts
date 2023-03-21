@@ -133,16 +133,11 @@
   
 }
 
-/* Estilos específicos para móviles */
+
 /* Estilos específicos para móviles */
 @media (max-width: 767px) {
 
-  {
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  }
+ 
   body {
   background-color: #F8F8F8;
   color: #333;
