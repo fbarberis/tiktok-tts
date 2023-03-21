@@ -26,9 +26,25 @@ h1 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+      -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --color: #FF6937;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    vertical-align: baseline;
+    font-family: avenir roman,sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    margin-top: 8px;
+    COLOR: #717171;
 }
 
 /* Estilos para el cuadro de texto */
