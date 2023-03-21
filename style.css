@@ -2,7 +2,7 @@
 
 
 /* Estilos específicos para escritorio */
-@media (min-width: 768px) {
+@media (min-width: 903px) {
 
   * {
     box-sizing: border-box;
@@ -136,7 +136,7 @@
 
 
 /* Estilos específicos para móviles */
-@media (max-width: 767px) {
+@media (max-width: 904px) {
 
  
   body {
