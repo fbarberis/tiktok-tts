@@ -2,7 +2,7 @@
 
 
 /* Estilos específicos para escritorio */
-@media (min-width: 903px) {
+@media (min-width: 768px) {
 
   * {
     box-sizing: border-box;
@@ -52,7 +52,6 @@
       font-size: 16px;
       margin-top: 8px;
       COLOR: #717171;
-      margin-bottom: 20px;
   }
 
   /* Estilos para el cuadro de texto */
@@ -131,12 +130,15 @@
     margin-bottom: 40px;
   }
 
-  
+  .boton-contacto {
+    display: block;
+    margin-bottom: 40px;
+  }
 }
 
 
 /* Estilos específicos para móviles */
-@media (max-width: 904px) {
+@media (max-width: 767px) {
 
  
   body {
@@ -261,5 +263,10 @@ font-size: 2.5rem;
 margin-right: 10px;
 cursor: pointer;
 margin-bottom: 20px;
+}
+
+.boton-contacto {
+  display: block;
+  margin-bottom: 40px;
 }
 }
