@@ -76,7 +76,7 @@ text_parts.push(docx_content);
         const audio = document.getElementById("audio");
         audio.src = url;
         audio.load();
-        
+        audio.play();
       } else {
         console.error("Error al generar el audio");
       }
