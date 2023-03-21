@@ -76,6 +76,7 @@ text_parts.push(docx_content);
         const audio = document.getElementById("audio");
         audio.src = url;
         audio.load();
+        
       } else {
         console.error("Error al generar el audio");
       }
@@ -141,6 +142,5 @@ function reproducirAudio() {
       console.error(error);
       console.error("Error al generar el audio");
     });
- 
+  
 }
-
