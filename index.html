@@ -5,16 +5,15 @@
     <meta name="keywords" content="TT-TTS, text-to-speech, TTS, audio, YouTube, TikTok, Instagram">
     <meta charset="UTF-8">
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5J6NFYPEX"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M6FLQXGMNQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-N5J6NFYPEX');
+  gtag('config', 'G-M6FLQXGMNQ');
 </script>
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7650600872002577"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7650600872002577"
      crossorigin="anonymous"></script>
 
     <title>TT-TTS - Tik Tok Text-to-Speech</title>
@@ -22,7 +21,7 @@
   </head>
   <body>
     <meta name="google-site-verification" content="08Ll4mozQdB3D3Lszdo3tqlvWqj94PAPv8vm594cTf0" />
-    <button onclick="iniciarSesionConGoogle()">Login with Google</button>
+   <!-- <button onclick="iniciarSesionConGoogle()">Login with Google</button> -->
 
     <div class="container">
       <h1>TT-TTS - Tik Tok Text-to-Speech</h1>
@@ -86,7 +85,13 @@ Enjoy the best text-to-speech experience!.</p>
       </select>
       
       <div style="text-align: center;">
-        <button onclick="generarAudio()">Download audio</button>
+        <audio id="audio" controls></audio>
+        
+        <button class="play-button" onclick="reproducirAudio()">Play</button>
+
+        <button class="download-button" onclick="generarAudio()">Download</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1ATxSNV6j5d54LLPPlpzjnFQ0hNpkhcofjM8vAcyQSbpkbg/viewform?usp=sf_link" class="boton-contacto">Do you need to do bulk conversions? - Contact me</a>
+
         <form action="https://www.paypal.com/donate" method="post" target="_top">
           <input type="hidden" name="hosted_button_id" value="MLZ24D3EGSEHY" />
           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
