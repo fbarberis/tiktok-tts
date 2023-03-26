@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /ads.txt
+Disallow: /404.html
+Disallow: /script.js
+Disallow: /style.css
