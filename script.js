@@ -1,5 +1,5 @@
 const ENDPOINT = 'https://tiktok-tts.weilnet.workers.dev';
-const MAX_TEXT_LENGTH = 200;
+const MAX_TEXT_LENGTH = 300;
 let audio_data_parts = [];
 
 function getApiStatus() {
@@ -37,7 +37,7 @@ while (docx_content.length > MAX_TEXT_LENGTH) {
   let idx = MAX_TEXT_LENGTH;
   let separator = idx;
   // Buscar un punto o una coma cerca del límite de 200 caracteres
-  while (idx > 0 && idx > MAX_TEXT_LENGTH - 30) {
+  while (idx > 0 && idx > MAX_TEXT_LENGTH - 100) {
     if (docx_content[idx] === '.') {
       separator = idx + 1;
       break;
