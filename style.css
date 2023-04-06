@@ -126,3 +126,46 @@ button[name='submit'] {
   display: block;
   margin-bottom: 40px;
 }
+
+/* Añadir media queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button, .play-button, .download-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .play-button, .download-button {
+    margin-bottom: 30px;
+  }
+
+  .boton-contacto {
+    margin-bottom: 30px;
+  }
+}
