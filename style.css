@@ -1,164 +1,30 @@
-
-
-
-/* Estilos específicos para escritorio */
-@media (min-width: 768px) {
-
-  * {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    background-color: #F8F8F8;
-    color: #333;
-  }
-
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-  }
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    border-bottom: 2px solid #333;
-  }
-
-
-  p {
-        -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: transparent;
-      --color: #FF6937;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      text-align: center;
-      font-variant-ligatures: inherit;
-      font-variant-caps: inherit;
-      font-variant-numeric: inherit;
-      font-variant-east-asian: inherit;
-      font-weight: inherit;
-      font-stretch: inherit;
-      vertical-align: baseline;
-      font-family: avenir roman,sans-serif;
-      line-height: 25px;
-      font-size: 16px;
-      margin-top: 8px;
-      COLOR: #717171;
-  }
-
-  /* Estilos para el cuadro de texto */
-  textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    resize: none;
-  }
-
-  /* Estilo para el control de audio */
-  #audio {
-    width: 100%;
-    margin: 20px 0;
-    
-    }
-  /* Estilo para centrar los botones */
-  .container div {
-    text-align: center;
-    }
-  button {
-    background-color: #1DA1F2;
-    color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1rem;
-  }
-
-  /* Estilos para el selector de voz */
-  label {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  select {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    appearance: none;
-    background-image: linear-gradient(to bottom, #fff, #f5f5f5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px;
-  }
-
-  select option {
-    padding: 10px;
-  }
-  button[name='submit'] {
-    display: block;
-    margin: 0 auto;
-  }
-
-
-
-
-  .play-button, .download-button {
-    background: linear-gradient(to bottom right, #1DA1F2, #0E71C8);
-    color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1rem;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-bottom: 40px;
-  }
-
-  .boton-contacto {
-    display: block;
-    margin-bottom: 40px;
-  }
+/* Estilos base */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-
-/* Estilos específicos para móviles */
-@media (max-width: 767px) {
-
- 
-  body {
+body {
   background-color: #F8F8F8;
   color: #333;
-  }
-  
-  .container {
-  max-width: 90%;
+}
+
+.container {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px 10px;
-  }
-  
-  h1 {
+  padding: 40px 20px;
+}
+
+h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
   border-bottom: 2px solid #333;
-  }
-  
-  p {
+}
+
+p {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   --color: #FF6937;
@@ -175,15 +41,14 @@
   font-stretch: inherit;
   vertical-align: baseline;
   font-family: avenir roman,sans-serif;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 25px;
+  font-size: 16px;
   margin-top: 8px;
   color: #717171;
-  margin-bottom: 20px;
-  }
-  
-  /* Estilos para el cuadro de texto */
-  textarea {
+}
+
+/* Estilos para el cuadro de texto */
+textarea {
   display: block;
   width: 100%;
   margin-bottom: 20px;
@@ -192,101 +57,72 @@
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   resize: none;
-  }
-  
-  /* Estilo para el control de audio */
-  #audio {
+}
+
+/* Estilo para el control de audio */
+#audio {
   width: 100%;
   margin: 20px 0;
-  }
-  
-  /* Estilo para centrar los botones */
-  .container div {
+}
+
+/* Estilo para centrar los botones */
+.container div {
   text-align: center;
-  }
-  
-  button {
+}
+
+button {
   background-color: #1DA1F2;
   color: white;
   border-radius: 5px;
   padding: 10px 20px;
   border: none;
   font-size: 1rem;
-  margin-bottom: 20px;
-  }
-  
-  /* Estilos para el selector de voz */
-  label {
+}
+
+/* Estilos para el selector de voz */
+label {
   display: block;
-  font-family: avenir roman,sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-  }
-  
-  select {
+}
+
+select {
   display: block;
   width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   appearance: none;
   background-image: linear-gradient(to bottom, #fff, #f5f5f5);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
-  margin-bottom: 20px;
-  }
-  
-  select option {
+}
+
+select option {
   padding: 10px;
-  }
-  
- 
+}
 
 button[name='submit'] {
-display: block;
-margin: 0 auto;
-font-size: 2.5rem;
-padding: 8px 16px;
-margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 .play-button, .download-button {
-background: linear-gradient(to bottom right, #1DA1F2, #0E71C8);
-color: white;
-border-radius: 20px;
-padding: 8px 16px;
-border: none;
-font-size: 2.5rem;
-margin-right: 10px;
-cursor: pointer;
-margin-bottom: 20px;
+  background: linear-gradient(to bottom right, #1DA1F2, #0E71C8);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .boton-contacto {
   display: block;
   margin-bottom: 40px;
-}
-}
-
-/* Estilos específicos para escritorio */
-@media (min-width: 768px) {
-  p {
-    font-size: 16px;
-  }
-}
-
-/* Estilos específicos para móviles */
-@media (max-width: 767px) {
-  textarea {
-    font-size: 18px;
-    padding: 15px;
-  }
-
-  select {
-    font-size: 18px;
-    padding: 15px;
-  }
 }
