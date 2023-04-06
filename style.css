@@ -135,30 +135,36 @@ button[name='submit'] {
 
   h1 {
     font-size: 2rem;
+    margin-bottom: 15px;
   }
 
   p {
     font-size: 14px;
     line-height: 20px;
+    display: none;
   }
 
   textarea {
     font-size: 14px;
     padding: 8px;
+    height: 40vh;
+    margin-bottom: 10px;
   }
 
   label {
     font-size: 16px;
+    margin-bottom: 5px;
   }
 
   select {
     font-size: 14px;
     padding: 8px;
+    margin-bottom: 10px;
   }
 
   button, .play-button, .download-button {
     font-size: 0.9rem;
-    padding: 8px 16px;
+    padding: 15px 25px;
   }
 
   .play-button, .download-button {
@@ -166,6 +172,6 @@ button[name='submit'] {
   }
 
   .boton-contacto {
-    margin-bottom: 30px;
+    display: none;
   }
 }
